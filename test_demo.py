@@ -6,6 +6,5 @@ def test_add():
 # WHEN I invoke the method
 # THEN I get the addition of two numbers
     add_result = demo.add(3,4)
-    assert add_result == 7
-
+    assert demo.add(2,4)==6
 
